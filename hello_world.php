@@ -13,7 +13,7 @@ class Foo {
   }
 
   function someFunction($param,$param2) {
-    echo $param.$this->bar."<br/>";  
+    echo $param.' '.$param2.$this->bar."<br/>";  
   }
 
 }
