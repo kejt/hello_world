@@ -12,7 +12,7 @@ class Foo {
     $this->bar = $value;
   }
 
-  function someFunction($param) {
+  function someFunction($param,$param2) {
     echo $param.$this->bar."<br/>";  
   }
 
@@ -20,7 +20,7 @@ class Foo {
 
 $foo = new Foo();
 
-$foo->setBar("Charles");
+$foo->setBar("Charles","Dickens");
 $foo->someFunction("Hello, ");
 $foo->someFunction("Godbye, ");
 
