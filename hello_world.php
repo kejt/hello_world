@@ -22,6 +22,7 @@ $foo = new Foo();
 
 $foo->setBar("Charles");
 $foo->someFunction("Hello, ");
+$foo->someFunction("Godbye, ");
 
 ?>
 </body>
