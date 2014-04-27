@@ -29,6 +29,10 @@ $foo->someFunction("Godbye, ");
 
 $foo->someFunction2("Hello, ");
 $foo->someFunction2("Godbye, ");
+
+$foo->someFunction2("Hi, ");
+$foo->someFunction2("Bye, ");
+
 ?>
 </body>
 </html>
